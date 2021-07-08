@@ -1,0 +1,38 @@
+body{
+    font-family: 'Baloo Tamma', cursive;
+}
+.text-bingo {
+    display: inline-block;
+    padding: 15px;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.bubble-loteryB {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin: 3px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: #126112;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+.mdc-button:disabled {
+     background-color: #e5e5e5;
+ }
+
+.mdc-button--raised:not(:disabled), .mdc-button--unelevated:not(:disabled){
+    background-color: #126112;
+}
+
+.img-footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
