@@ -109,7 +109,8 @@ const CardBingo = () => {
             <Card>
               <Elevation z={7}>
                 <div style={{textAlign: 'center'}}>
-                  <h1>BINGO FELIZ</h1>
+                  <h1>BINGO DÍA DE LA FAMILIA PAENCE</h1>
+                  <p>11 de Julio del 2021</p>
                 </div>
                 <Grid>
                   <GridCell desktop={10} tablet={12} phone={12}>
@@ -187,7 +188,7 @@ const CardBingo = () => {
                   <GridCell desktop={6} tablet={12} phone={12}>
                     <Card>
                       <Elevation z={4}>
-                        <h3>&nbsp;&nbsp;&nbsp;Con el apoyo de </h3>
+                        <h3>&nbsp;&nbsp;&nbsp;Organiza: </h3>
                         <div className={'img-footer'}>
                           <img src={alcaldia} style={{width: '15rem'}} alt={'Profile'}/>
                           <img src={mem} style={{width: '10rem'}} alt={'Profile'}/>
